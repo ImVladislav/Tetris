@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>$FARTBRO </title>
+   <title>$TETRIS </title>
    <link rel="stylesheet" href="styles.css" />
    <!-- Підключення CSS -->
    <!-- <link rel="icon" href="logo.png" type="image/png" /> -->
@@ -19,7 +19,7 @@
       <div class="header">
          <!-- <img src="ico7.png" alt="Logo" class="main-logo" /> -->
          <!-- <img src="logo_1.png" alt="Ignite" class="title" /> -->
-         <p class="title">$FARTBRO </p>
+         <p class="title">$TETRIS </p>
          <!-- <p class="slogan">
             <span>WORK</span>
                <span>HARD,</span>
@@ -56,23 +56,8 @@
 
 
    </div>
-   <canvas id="canvas"></canvas>
-   <script>
-      document
-         .getElementById('progressText')
-         .addEventListener('click', function () {
-            const textToCopy = this.textContent;
-            navigator.clipboard
-               .writeText(textToCopy)
-               .then(() => {
-                  alert('Text copied to clipboard!');
-               })
-               .catch((err) => {
-                  console.error('Failed to copy text: ', err);
-               });
-         });
-   </script>
-   <script src="index.js"></script>
+
+
 
 
 
@@ -353,7 +338,22 @@
    <button id="center-scene" onclick="centerScene()" class=""><span class="info"></span><span></span></button>
    <!-- partial -->
      <script src='https://cdn.josetxu.com/js/camera.js'></script><script  src="./script.js"></script>
-   
+     <script>
+      document
+         .getElementById('progressText')
+         .addEventListener('click', function () {
+            const textToCopy = this.textContent;
+            navigator.clipboard
+               .writeText(textToCopy)
+               .then(() => {
+                  alert('Text copied to clipboard!');
+               })
+               .catch((err) => {
+                  console.error('Failed to copy text: ', err);
+               });
+         });
+   </script>
+   <script src="index.js"></script>
 
 </body>
 
