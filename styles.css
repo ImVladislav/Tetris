@@ -2290,7 +2290,7 @@ button#center-scene:active span.info:after {
 
 .cuboid.top-front:before,
 .cuboid.top-front:after{
-	content: "$TETRIS";
+	content: "$TETRIS" ;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -2309,7 +2309,7 @@ button#center-scene:active span.info:after {
 }
 
 .cuboid.top-front:after {
-	content: "R";
+	content: "";
 	transform: rotateY(180deg);
 	margin-left: 2.25vmin
 }

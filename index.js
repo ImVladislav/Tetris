@@ -50,7 +50,7 @@ function centerScene() {
 
 function newCredit() {
   aCredit.play();
-  setTimeout(function() {window.parent.location.href="https://codepen.io/josetxu/full/bGKqxyR";}, 250);
+  setTimeout(function() {window.parent.location.href="https://raydium.io/";}, 250);
 }
 
 document.getElementById('reload').addEventListener('click',function(e){
